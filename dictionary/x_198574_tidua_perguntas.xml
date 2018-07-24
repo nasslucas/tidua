@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Perguntas" max_length="40" name="x_198574_tidua_perguntas" type="collection">
+        <element label="Dimensão" mandatory="true" max_length="32" name="dimensao" reference="x_198574_tidua_dimensao" type="reference"/>
+        <element label="Nome" mandatory="true" max_length="1000" name="nome" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Pergunta Filha" mandatory="true" max_length="32" name="pergunta_filha" reference="x_198574_tidua_perguntas" type="reference"/>
+        <index name="index">
+            <element name="pergunta_filha"/>
+        </index>
+        <index name="index2">
+            <element name="dimensao"/>
+        </index>
+    </element>
+</database>
