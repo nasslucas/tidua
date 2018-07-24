@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="pergunta_filha" table="x_198574_tidua_perguntas">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_peso" table="x_198574_tidua_m2m_perguntas_auditorias">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Pergunta Filha</column_label>
+        <column_label>Peso</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,20 +23,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>pergunta_filha</element>
+        <element>u_peso</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_198574_tidua_perguntas</name>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_198574_tidua_m2m_perguntas_auditorias</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_198574_tidua_perguntas">x_198574_tidua_perguntas</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,16 +48,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 00:12:41</sys_created_on>
-        <sys_id>bb40f228db231300b6fb0d53ca961900</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Pergunta Filha</sys_name>
+        <sys_created_on>2018-07-24 01:24:21</sys_created_on>
+        <sys_id>53d04fe0db631300b6fb0d53ca9619dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Peso</sys_name>
         <sys_package display_value="Tidua" source="x_198574_tidua">8eada2a4db231300b6fb0d53ca961971</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tidua">8eada2a4db231300b6fb0d53ca961971</sys_scope>
-        <sys_update_name>sys_dictionary_x_198574_tidua_perguntas_pergunta_filha</sys_update_name>
+        <sys_update_name>sys_dictionary_x_198574_tidua_m2m_perguntas_auditorias_u_peso</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-24 01:56:45</sys_updated_on>
+        <sys_updated_on>2018-07-24 01:24:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

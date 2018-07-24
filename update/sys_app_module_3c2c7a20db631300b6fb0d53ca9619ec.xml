@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Dimensão">9bbea228db231300b6fb0d53ca961990</application>
+        <application display_value="Tidua Auditoria">909bf620db631300b6fb0d53ca9619dc</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -12,31 +12,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Dimensãos</mobile_title>
+        <mobile_title>Tidua Auditorias</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_198574_tidua_dimensao</name>
-        <order/>
+        <name>x_198574_tidua_auditoria</name>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_198574_tidua.dimenso_user</roles>
+        <roles>x_198574_tidua.tidua_auditoria_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 00:05:10</sys_created_on>
+        <sys_created_on>2018-07-24 01:03:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>93bea228db231300b6fb0d53ca961993</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Dimensãos</sys_name>
+        <sys_id>3c2c7a20db631300b6fb0d53ca9619ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Auditorias</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tidua" source="x_198574_tidua">8eada2a4db231300b6fb0d53ca961971</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tidua">8eada2a4db231300b6fb0d53ca961971</sys_scope>
-        <sys_update_name>sys_app_module_93bea228db231300b6fb0d53ca961993</sys_update_name>
+        <sys_update_name>sys_app_module_3c2c7a20db631300b6fb0d53ca9619ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-24 00:05:10</sys_updated_on>
+        <sys_updated_on>2018-07-24 01:42:03</sys_updated_on>
         <timeline_page/>
-        <title>Dimensãos</title>
+        <title>Auditorias</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

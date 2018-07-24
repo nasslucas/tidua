@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="M2M Perguntas Auditorias" max_length="40" name="x_198574_tidua_m2m_perguntas_auditorias" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Auditoria" max_length="32" name="u_auditoria" reference="x_198574_tidua_auditoria" type="reference"/>
+        <element label="Pergunta" mandatory="true" max_length="32" name="u_pergunta" reference="x_198574_tidua_perguntas" type="reference"/>
+        <element choice="1" label="Peso" mandatory="true" max_length="40" name="u_peso" type="integer">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+                <element label="4" sequence="3" value="4"/>
+                <element label="5" sequence="4" value="5"/>
+                <element label="6" sequence="5" value="6"/>
+                <element label="7" sequence="6" value="7"/>
+                <element label="8" sequence="7" value="8"/>
+                <element label="9" sequence="8" value="9"/>
+                <element label="10" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_pergunta"/>
+        </index>
+        <index name="index2">
+            <element name="u_auditoria"/>
+        </index>
+    </element>
+</database>
